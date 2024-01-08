@@ -1,0 +1,127 @@
+/* SpotifyStats.css */
+
+body {
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .spotify-stats-container {
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #121212;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .header {
+    text-align: center;
+    color: #1db954;
+  }
+  
+  .login-button,
+  .logout-button,
+  .search-button,
+  .find-button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1db954;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover,
+  .logout-button:hover,
+  .search-button:hover,
+  .find-button:hover {
+    background-color: #0f8137;
+  }
+  
+  .search-form,
+  .find-form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #1db954;
+    border-radius: 4px;
+  }
+  
+  .no-image {
+    text-align: center;
+    color: #888;
+  }
+  
+  .artist-container,
+  .top-artist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .artist-image,
+  .top-artist-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .artist-name,
+  .top-artist-name {
+    font-weight: bold;
+  }
+  
+  .top-artists-header,
+  .top-artist-header {
+    text-align: center;
+    margin-top: 20px;
+    color: #1db954;
+  }
+  
+  .user-data {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .login-prompt {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+  }
+  
+  .welcome-message {
+    text-align: center;
+    margin-top: 20px;
+    color: #ccc;
+  }
+  
+  .feature-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .feature-list li {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  

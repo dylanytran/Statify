@@ -25,7 +25,6 @@ After navigating to project directory (my-react-app), enter the following in ter
 npm i
 npm start
 ```
-View the web-app on your browser: http://10.194.240.137:3000
 
 # Contributors
 - **Arnav Bhagwat** - Frontend Developer
